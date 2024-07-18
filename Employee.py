@@ -13,3 +13,7 @@ class Employee:
     
     def increment_cars_sold(self):
         self.cars_sold += 1 
+
+    def get_cars_sold(self):
+        return self.cars_sold
+        
