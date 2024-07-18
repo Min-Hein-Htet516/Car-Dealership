@@ -3,3 +3,6 @@ class Dealership:
         self.staff = staff
         self.inventory = self.inventory
         self.revenue = revenue
+
+    def get_revenue(self):
+        return self.revenue
