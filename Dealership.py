@@ -6,3 +6,7 @@ class Dealership:
 
     def get_revenue(self):
         return self.revenue
+
+    def sell_car(self, model_name, used, employee_who_sold):
+        list.remove(model_name)
+        
