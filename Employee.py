@@ -7,3 +7,7 @@ class Employee:
 
     def set_position(self, position_name):
         self.position = position_name
+
+    def get_position(self):
+        return self.position
+    
