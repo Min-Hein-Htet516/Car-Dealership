@@ -16,4 +16,10 @@ class Employee:
 
     def get_cars_sold(self):
         return self.cars_sold
+    
+    def generate_revenue(self, amount):
+        self.revenue_generated += amount
+
+    def get_revenue_generated(self):
+        return self.revenue_generated
         
