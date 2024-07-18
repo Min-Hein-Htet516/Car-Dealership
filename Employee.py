@@ -11,3 +11,5 @@ class Employee:
     def get_position(self):
         return self.position
     
+    def increment_cars_sold(self):
+        self.cars_sold += 1 
